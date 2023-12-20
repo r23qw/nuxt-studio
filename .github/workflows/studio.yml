@@ -71,7 +71,7 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_PUBLIC_STUDIO_TOKENS: e4b558a56887d96ca46e21e053a79a9ae569318723102c5c6d95d3f031bcb0eb
-          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
+
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
